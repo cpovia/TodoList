@@ -79,7 +79,7 @@ const List = ({ list, deleteList }) => {
         type="text"
         value={NewVal}
         onChange={onChanged}
-        style={{ display: Modif ? "block" : "none" }}
+        style={{ display: Modif ? "inline" : "none" }}
         onKeyPress={ModifValue}
       />
       <input
