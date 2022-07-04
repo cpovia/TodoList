@@ -48,7 +48,6 @@ const List = ({ list, deleteList }) => {
     const blu = Math.floor(Math.random() * 255);
     const vir = 150;
     const colora = "rgb(" + rou + "," + blu + "," + vir + ")";
-    console.log(colora);
     return colora;
   };
 

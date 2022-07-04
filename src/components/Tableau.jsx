@@ -28,7 +28,6 @@ const Tableau = () => {
     const blu = Math.floor(Math.random() * 255);
     const vir = Math.floor(Math.random() * 255);
     const colora = "rgb(" + rou + "," + blu + "," + vir + ")";
-    console.log(colora);
     return colora;
   };
 
